@@ -4,7 +4,7 @@
  * @Author: Hainan Dong
  * @Date: 2022-09-13 16:04:14
  * @LastEditors: Hainan Dong
- * @LastEditTime: 2022-09-13 16:04:15
+ * @LastEditTime: 2022-09-13 16:57:10
  */
 module.exports = {
   env: {
@@ -31,6 +31,9 @@ module.exports = {
     'prettier'
   ],
   rules: {
-    'prettier/prettier': 'error'
+    'prettier/prettier': 'error',
+    "@typescript-eslint/explicit-function-return-type": "off",
+    'no-for-in-array': 'off',
+    '@typescript-eslint/no-floating-promises': 'off'
   }
 }
